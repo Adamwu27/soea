@@ -65,6 +65,7 @@
             font-weight: 700;
             margin-bottom: 15px;
             letter-spacing: 2px;
+            white-space: nowrap;
         }
 
         .hero-subtitle {
@@ -972,7 +973,7 @@
     <!-- What is Special Olympics -->
     <section class="what-is-so" id="what-is-so">
         <div class="section-title">
-            <h2>What is Special Olympics?</h2>
+            <h2 style="white-space: nowrap;">What is Special Olympics?</h2>
             <p>Special Olympics is dedicated to providing year-round sports training and competition opportunities for children and adults with intellectual disabilities, enabling them to develop their potential, demonstrate courage, and share joy, skills, and friendship with other athletes, families, and the community.</p>
         </div>
 
@@ -1047,7 +1048,7 @@
             </div>
         </div>
 
-        <h4 style="color: var(--dark-gray); margin: 30px 0 20px; text-align: center;">History of Special Olympics World Games</h4>
+        <h4 style="color: var(--dark-gray); margin: 30px 0 20px; text-align: center; white-space: nowrap;">History of Special Olympics World Games</h4>
 
         <div class="games-history">
             <div class="games-row">
@@ -1093,15 +1094,29 @@
         </div>
 
         <div style="text-align:center; margin-top: 20px;">
-            <div class="games-item" style="display:inline-block; padding:10px 20px; font-size:0.9rem; background: var(--primary-red); color: white; border-color: var(--primary-red);"><span style="color:white;">2027</span> <span style="color:white;">Santiago, Chile</span> <span style="color:white;">Special Olympics World Summer Games</span></div>
-            <div class="games-item" style="display:inline-block; padding:10px 20px; font-size:0.9rem; background: var(--accent-blue); color: white; border-color: var(--accent-blue); margin-left: 15px;"><span style="color:white;">2029</span> <span style="color:white;">Switzerland</span> <span style="color:white;">Special Olympics World Winter Games</span></div>
+            <div style="display:inline-flex; flex-direction: column; align-items: center; margin: 15px; padding: 15px 25px; background: #FFF5F5; border-radius: 12px; border: 2px solid var(--primary-red); max-width: 350px;">
+                <img src="https://cdn.santiago2027.org/d2/5c/7d6f753a45d5abe69aed1a75cbd6/ooee-logotipo-rgb-eng-horizontal-1-1.svg" alt="Santiago 2027" style="max-width: 150px; margin-bottom: 12px;">
+                <span style="color: var(--primary-red); font-weight: bold; font-size: 1rem;">2027</span>
+                <span style="color: var(--primary-red); font-weight: bold; font-size: 1rem;">Santiago, Chile</span>
+                <span style="color: var(--primary-red); font-size: 0.9rem;">Special Olympics World Summer Games</span>
+            </div>
+            <div style="display:inline-flex; flex-direction: column; align-items: center; margin: 15px; padding: 15px 25px; background: #F0F5FA; border-radius: 12px; border: 2px solid var(--accent-blue); max-width: 350px;">
+                <img src="https://cdn.switzerland2029.org/d6/36/dca2f2f14ba69ae7f712edd5815d/logo.svg" alt="Switzerland 2029" style="max-width: 150px; margin-bottom: 12px;">
+                <span style="color: var(--accent-blue); font-weight: bold; font-size: 1rem;">2029</span>
+                <span style="color: var(--accent-blue); font-weight: bold; font-size: 1rem;">Switzerland</span>
+                <span style="color: var(--accent-blue); font-size: 0.9rem;">Special Olympics World Winter Games</span>
+            </div>
         </div>
     </section>
 
     <!-- Comparison -->
     <section class="comparison" id="comparison">
         <div class="section-title">
-            <h2>Special Olympics vs Paralympics vs Olympics</h2>
+            <h2 style="white-space: nowrap;">Special Olympics</h2>
+            <h2 style="white-space: nowrap;">vs</h2>
+            <h2 style="white-space: nowrap;">Paralympics</h2>
+            <h2 style="white-space: nowrap;">vs</h2>
+            <h2 style="white-space: nowrap;">Olympics</h2>
             <p>What are the differences among the three Olympic-level events?</p>
         </div>
 
@@ -1281,22 +1296,22 @@
             <div class="service-area">
                 <h4>⭐ Ambassadors</h4>
                 <div class="ambassador-grid">
-                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/db669b4/2147483647/strip/true/crop/400x400+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2Fce%2Fe8%2F5c2c1bac407e9fbc4be4ff8f6c7a%2F400x400-yao-ming.jpg', 'Yao Ming - Special Olympics Global Ambassador')">
+                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/db669b4/2147483647/strip/true/crop/400x400+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2Fce%2Fe8%2F5c2c1bac407e9fbc4be4ff8f6c7a%2F400x400-yao-ming.jpg', 'Yao Ming - Special Olympics East Asia Ambassador')">
                         <div class="ambassador-avatar" style="width:70px;height:70px;"><img src="https://dotorg.brightspotcdn.com/dims4/default/db669b4/2147483647/strip/true/crop/400x400+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2Fce%2Fe8%2F5c2c1bac407e9fbc4be4ff8f6c7a%2F400x400-yao-ming.jpg" alt="Yao Ming"></div>
                         <div class="ambassador-name">Yao Ming</div>
                         <div class="ambassador-title">Basketball Legend</div>
                     </div>
-                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/c951b53/2147483647/strip/true/crop/1668x1668+0+416/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2Fb8%2Fd3%2F6f5f8d464cf892dfda3e895afca3%2Fli-na-1.jpg', 'Li Na - Special Olympics Global Ambassador')">
+                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/c951b53/2147483647/strip/true/crop/1668x1668+0+416/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2Fb8%2Fd3%2F6f5f8d464cf892dfda3e895afca3%2Fli-na-1.jpg', 'Li Na - Special Olympics East Asia Ambassador')">
                         <div class="ambassador-avatar" style="width:70px;height:70px;"><img src="https://dotorg.brightspotcdn.com/dims4/default/c951b53/2147483647/strip/true/crop/1668x1668+0+416/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2Fb8%2Fd3%2F6f5f8d464cf892dfda3e895afca3%2Fli-na-1.jpg" alt="Li Na"></div>
                         <div class="ambassador-name">Li Na</div>
                         <div class="ambassador-title">Tennis Champion</div>
                     </div>
-                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/8adc26e/2147483647/strip/true/crop/1800x1800+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F96%2F15%2F385f2a5845f9860421f7fd746ce4%2Fyang-lan-2025-new.jpg', 'Yang Lan - Special Olympics Global Ambassador')">
+                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/8adc26e/2147483647/strip/true/crop/1800x1800+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F96%2F15%2F385f2a5845f9860421f7fd746ce4%2Fyang-lan-2025-new.jpg', 'Yang Lan - Special Olympics East Asia Ambassador')">
                         <div class="ambassador-avatar" style="width:70px;height:70px;"><img src="https://dotorg.brightspotcdn.com/dims4/default/8adc26e/2147483647/strip/true/crop/1800x1800+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F96%2F15%2F385f2a5845f9860421f7fd746ce4%2Fyang-lan-2025-new.jpg" alt="Yang Lan"></div>
                         <div class="ambassador-name">Yang Lan</div>
                         <div class="ambassador-title">Renowned Host</div>
                     </div>
-                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/fbf368a/2147483647/strip/true/crop/2088x2088+136+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F6b%2Ffb%2F2409f5744a5e8a7caa87ec93d276%2Fzou-shiming-2025-1.jpg', 'Zou Shiming - Special Olympics Global Ambassador')">
+                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/fbf368a/2147483647/strip/true/crop/2088x2088+136+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F6b%2Ffb%2F2409f5744a5e8a7caa87ec93d276%2Fzou-shiming-2025-1.jpg', 'Zou Shiming - Special Olympics East Asia Ambassador')">
                         <div class="ambassador-avatar" style="width:70px;height:70px;"><img src="https://dotorg.brightspotcdn.com/dims4/default/fbf368a/2147483647/strip/true/crop/2088x2088+136+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F6b%2Ffb%2F2409f5744a5e8a7caa87ec93d276%2Fzou-shiming-2025-1.jpg" alt="Zou Shiming"></div>
                         <div class="ambassador-name">Zou Shiming</div>
                         <div class="ambassador-title">Olympic Champion</div>
@@ -1306,18 +1321,18 @@
                         <div class="ambassador-name">Zhou Xun</div>
                         <div class="ambassador-title">Famous Actress</div>
                     </div>
-                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/9b6cd51/2147483647/strip/true/crop/1715x1715+0+33/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F0c%2Fa3%2Fc90c15464856bc0b05a93f4adc3f%2Fyang-yang.jpg', 'Yang Yang - Special Olympics Global Ambassador')">
+                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/9b6cd51/2147483647/strip/true/crop/1715x1715+0+33/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F0c%2Fa3%2Fc90c15464856bc0b05a93f4adc3f%2Fyang-yang.jpg', 'Yang Yang - Special Olympics East Asia Ambassador')">
                         <div class="ambassador-avatar" style="width:70px;height:70px;"><img src="https://dotorg.brightspotcdn.com/dims4/default/9b6cd51/2147483647/strip/true/crop/1715x1715+0+33/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F0c%2Fa3%2Fc90c15464856bc0b05a93f4adc3f%2Fyang-yang.jpg" alt="Yang Yang"></div>
                         <div class="ambassador-name">Yang Yang</div>
                         <div class="ambassador-title">Winter Olympic Champion</div>
                     </div>
-                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/6e4bf15/2147483647/strip/true/crop/800x800+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F58%2F04%2Fa11e160841c8ad91e124e2eb991a%2F800x800-zhou-guanyu-bio.jpg', 'Zhou Guanyu - Special Olympics Global Ambassador')">
+                    <div class="ambassador-item" onclick="openLightbox('https://dotorg.brightspotcdn.com/dims4/default/6e4bf15/2147483647/strip/true/crop/800x800+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F58%2F04%2Fa11e160841c8ad91e124e2eb991a%2F800x800-zhou-guanyu-bio.jpg', 'Zhou Guanyu - Special Olympics East Asia Ambassador')">
                         <div class="ambassador-avatar" style="width:70px;height:70px;"><img src="https://dotorg.brightspotcdn.com/dims4/default/6e4bf15/2147483647/strip/true/crop/800x800+0+0/resize/240x240!/quality/90/?url=http%3A%2F%2Fsoi-brightspot.s3.amazonaws.com%2Fdotorg%2F58%2F04%2Fa11e160841c8ad91e124e2eb991a%2F800x800-zhou-guanyu-bio.jpg" alt="Zhou Guanyu"></div>
                         <div class="ambassador-name">Zhou Guanyu</div>
                         <div class="ambassador-title">F1 Driver</div>
                     </div>
-                    <div class="ambassador-item" onclick="openLightbox('https://pics0.baidu.com/feed/8c1001e93901213fd9f811b2dee31ec12e2e95ad.jpeg?token=017a57b53f343d7386e42c99f2d7de94', 'Su Yiming - Special Olympics East Asia Ambassador')">
-                        <div class="ambassador-avatar" style="width:70px;height:70px;"><img src="https://tse3.mm.bing.net/th/id/OIP.SZuS7DSKqfF5L-ug3KzcXgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Su Yiming" style="object-fit: cover; object-position: center 20%;"></div>
+                    <div class="ambassador-item" onclick="openLightbox('https://tse3.mm.bing.net/th/id/OIP.SZuS7DSKqfF5L-ug3KzcXgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3', 'Su Yiming - Special Olympics East Asia Ambassador')">
+                        <div class="ambassador-avatar" style="width:70px;height:70px;"><img src="https://tse3.mm.bing.net/th/id/OIP.SZuS7DSKqfF5L-ug3KzcXgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Su Yiming" style="object-fit: cover; object-position: center;"></div>
                         <div class="ambassador-name">Su Yiming</div>
                         <div class="ambassador-title">Snowboard Champion</div>
                     </div>
@@ -1329,7 +1344,7 @@
     <!-- China Section -->
     <section class="what-is-so" id="china" style="background: var(--white);">
         <div class="section-title">
-            <h2>China and Special Olympics</h2>
+            <h2 style="white-space: nowrap;">Special Olympics and China</h2>
             <p>Deep historical ties, glorious Special Olympics memories</p>
         </div>
 
@@ -1384,7 +1399,7 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <h3>Special Olympics East Asia</h3>
+            <h3 style="white-space: nowrap;">Special Olympics East Asia</h3>
             <div class="footer-divider"></div>
             <p>For more information, please visit the official Special Olympics website</p>
             <p><a href="https://www.specialolympics.org" target="_blank" style="color: var(--primary-red);">www.specialolympics.org</a></p>
